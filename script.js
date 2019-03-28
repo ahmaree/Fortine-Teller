@@ -1,5 +1,7 @@
-$("button").click(function(){ 
-});
-var ChopCheese= $("input").val(); 
-var Pineapples= $("input").val(); 
-var Food= $("input").val();
+$("button").click(function(){  
+    var ChopCheese= $(".chopcheese").val(); 
+    var Pineapples= $(".pineapples").val();  
+    console.log(ChopCheese);
+}); 
+
+
