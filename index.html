@@ -18,20 +18,21 @@ p{
        <h1>I shall predict your future</h1> 
        <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/family-guy/d/da/Familyguy-deathisabitch_1217532992_1219345445.jpg?width=325">  
        <p>how many chop cheeses will Ahmaree eat in 1 month</p>
-       <input class="chop cheese">
+       <input class="chopcheese">
        <p>How many pineapples will Ahmaree eat in a month</p> 
        <input class="pineapples">  
-       <p>How many times will ahmaree buy food in a month</p> 
-       <input class="food"> 
+       
        <button>Predict my future</button>
        
     
 
 <script>
 /*__POPCODESTART__*/
-$("button").click(function(){ 
-});
-var ChopCheese= $("input").val(); 
-var Pineapples= $("input").val(); 
-var Food= $("input").val();
+$("button").click(function(){  
+    var ChopCheese= $(".chopcheese").val(); 
+    var Pineapples= $(".pineapples").val();  
+    console.log(ChopCheese);
+}); 
+
+
 </script></body></html>
